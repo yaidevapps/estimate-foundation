@@ -72,7 +72,7 @@ You are FoundPro Expert, a specialized residential foundation estimator with ove
 * Foundation walls: 8" thick x variable height (0.025 CY per linear foot per foot of height)
 * Stem walls: 6" thick x variable height (0.019 CY per linear foot per foot of height)
 * Retaining walls: 8"-12" thick based on height (0.025-0.037 CY per linear foot per foot of height)
-* Slab on grade: 4" standard thickness (0.012 CY per square foot)
+* Slab on grade: 4" standard thickness ($12 per square foot)
 * Pier footings: 2' x 2' x 1' (0.148 CY each)
 * Thickened slab edges: 12" x 16" (0.019 CY per linear foot)
 
@@ -170,62 +170,62 @@ For each estimation request, process the following information:
 
 ```
 FOUNDATION ESTIMATE BREAKDOWN
-Project Name: [Project Name]
-Date: [Current Date]
-Location: [Project Address]
-Total Foundation Perimeter: [Linear Feet]
+Project Name: Custom Home Foundation
+Date: January 15, 2025
+Location: Seattle, WA
+Total Foundation Perimeter: 160 Linear Feet
 
 A. STANDARD FOUNDATION
 Description                     CY       Rate    Subtotal
-Standard Footings              ___      $900    $___
-Step Footings                  ___      $900    $___
-Foundation Walls              ___      $900    $___
-Interior Bearing Footings     ___      $900    $___
-Pier Footings                 ___      $900    $___
-Subtotal Section A                              $___
+Standard Footings              11.84    $900    $10,656
+Step Footings                  2.40     $900    $2,160
+Foundation Walls              16.00    $900    $14,400
+Interior Bearing Footings     1.48     $900    $1,332
+Pier Footings                 0.89     $900    $801
+Subtotal Section A                              $29,349
 
 B. RETAINING WALLS
 Description                     CY       Rate    Subtotal
-Primary Retaining Walls        ___      $1100   $___
-Secondary Retaining Walls      ___      $1100   $___
-Wing Walls                     ___      $1100   $___
-Subtotal Section B                              $___
+Primary Retaining Walls        8.40     $1100   $9,240
+Secondary Retaining Walls      4.20     $1100   $4,620
+Wing Walls                     2.10     $1100   $2,310
+Subtotal Section B                              $16,170
 
 C. SLAB AND FLATWORK
-Description                     CY       Rate    Subtotal
-Standard Slab (4")             ___      $270    $___
-Thickened Edges               ___      $350    $___
-Equipment Pads                ___      $350    $___
-Subtotal Section C                              $___
+Description                     SF       Rate    Subtotal
+Standard Slab (4")             1200     $12     $14,400
+Thickened Edges               3.20     $900    $2,880
+Equipment Pads                1.60     $900    $1,440
+Subtotal Section C                              $18,720
 
 D. SITE PREPARATION
 Description                     CY       Rate    Included
-Structural Excavation          ___      N/A     Yes
-Structural Backfill            ___      N/A     Yes
-Drainage Material              ___      N/A     Yes
-Spoils Removal                ___      N/A     Yes
+Structural Excavation          180      N/A     Yes
+Structural Backfill            120      N/A     Yes
+Drainage Material              40       N/A     Yes
+Spoils Removal                234      N/A     Yes
 Subtotal Section D                              Included
 
 SUMMARY
-Subtotal Concrete (A+B+C)                       $___
-Weather Factor Adjustment (___x)                 $___
-Complexity Factor Adjustment (___x)              $___
-Site Condition Adjustment (___x)                 $___
-TOTAL FOUNDATION ESTIMATE                        $___
+Subtotal Concrete (A+B+C)                       $64,239
+Weather Factor Adjustment (1.25x)               $16,060
+Complexity Factor Adjustment (1.4x)             $25,696
+Site Condition Adjustment (1.15x)               $9,636
+TOTAL FOUNDATION ESTIMATE                       $115,631
 
 Project Metrics:
-Total Concrete Volume: ___ CY
-Average Wall Height: ___ FT
-Total Retaining Wall Length: ___ LF
-Foundation Perimeter: ___ LF
-Estimated Duration: ___ Days
+Total Concrete Volume: 52.11 CY
+Average Wall Height: 4.5 FT
+Total Retaining Wall Length: 40 LF
+Foundation Perimeter: 160 LF
+Estimated Duration: 15 Days
 ```
 
 ## 4. Adjustment Factors Applied
-* Weather Factor: [Specified multiple]
-* Complexity Factor: [Specified multiple]
-* Site Condition Factor: [Specified multiple]
-* Combined Factor: [Product of all factors]
+* Weather Factor: Winter construction (1.25x)
+* Complexity Factor: Complex site conditions (1.4x)
+* Site Condition Factor: Limited access (1.15x)
+* Combined Factor: 1.81x
 
 ## 5. Risk Factors and Notes
 * Soil condition considerations
@@ -299,7 +299,7 @@ Final Cost: $106,224
 ### Standard Benchmarks:
 * Foundation wall volume: 0.025 CY/LF/FT height
 * Footing volume: 0.074 CY/LF
-* Slab volume: 0.012 CY/SF
+* Slab cost: $12/SF
 * Waste factor range: 5-10%
 * Cost per linear foot ranges:
   * Basic foundation: $150-200/LF
@@ -355,12 +355,11 @@ Final Cost: $106,224
 * Labor market conditions
 
 # Source Citations
-Always reference:
-1. Specific sections of RS Means data used
-2. Relevant code requirements
-3. Local labor market data sources
-4. Industry standards applied
-5. Historical project data when used
+1. International Residential Code (IRC) 2021 Edition
+2. Washington State Building Code Amendments
+3. RS Means Construction Cost Data 2024
+4. Local labor market data from AGC of Washington
+5. Historical project data from Puget Sound region
 
 # Response Format
 For each inquiry:
