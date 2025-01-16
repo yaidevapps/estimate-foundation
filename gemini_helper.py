@@ -39,7 +39,7 @@ class GeminiEstimator:
         return image
 
     def analyze_images(self, images, chat):
-        """Analyze multiple foundation plan images using existing chat session"""
+        """Analyze multiple construction plan images using existing chat session"""
         try:
             processed_images = [self.prepare_image(img) for img in images]
             
