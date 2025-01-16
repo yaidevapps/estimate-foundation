@@ -51,7 +51,7 @@ if st.session_state.chat is None:
     st.session_state.chat = estimator.start_chat()
 
 # File uploader
-uploaded_files = st.file_uploader("Upload foundation plan images", type=['png', 'jpg', 'jpeg'], accept_multiple_files=True)
+uploaded_files = st.file_uploader("Upload construction plan images", type=['png', 'jpg', 'jpeg'], accept_multiple_files=True)
 
 # Main interface
 if uploaded_files:
